@@ -10,9 +10,11 @@ function CitySelector({ setCityIndx }) {
   return (
     <form>
       <select onChange={(event) => updateCity(event.target.selectedIndex)}>
-        <option id="0">Berlin</option>
-        <option id="1">Dusseldorf</option>
-        <option id="2">Essen</option>
+        <option id="0">Токио</option>
+        <option id="1">Киото</option>
+        <option id="2">Осака</option>
+        <option id="2">Хоккайдо</option>
+        <option id="2">Нагоя</option>
       </select>
     </form>
   );

@@ -5,10 +5,10 @@ import styles from '../cityCard/style.module.css';
 function CityCard({ city }) {
   return (
     <div>
-      <img src={city.pic} alt="pic" />
+      <img src={city.imageUrl} alt="pic" />
       <h1>{city.name}</h1>
-      <p>{city.desc}</p>
-      <p>{city.fact}</p>
+      <p>{city.description}</p>
+      <p>{city.facts}</p>
     </div>
   );
 }
